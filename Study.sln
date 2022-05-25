@@ -1,36 +1,60 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32413.511
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Structure", "Data Structure\Data Structure.vcxproj", "{41C392B4-0A90-46B1-8D24-C1A4531FCC21}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Property", "Property\Property.vcxproj", "{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySql", "MySql\MySql.csproj", "{3D148E84-02FF-4597-8414-DA8FAA4BCB81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Debug|Any CPU.Build.0 = Debug|x64
 		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Debug|x64.ActiveCfg = Debug|x64
 		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Debug|x64.Build.0 = Debug|x64
 		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Debug|x86.ActiveCfg = Debug|Win32
 		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Debug|x86.Build.0 = Debug|Win32
+		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Release|Any CPU.ActiveCfg = Release|x64
+		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Release|Any CPU.Build.0 = Release|x64
 		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Release|x64.ActiveCfg = Release|x64
 		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Release|x64.Build.0 = Release|x64
 		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Release|x86.ActiveCfg = Release|Win32
 		{41C392B4-0A90-46B1-8D24-C1A4531FCC21}.Release|x86.Build.0 = Release|Win32
+		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Debug|Any CPU.Build.0 = Debug|x64
 		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Debug|x64.ActiveCfg = Debug|x64
 		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Debug|x64.Build.0 = Debug|x64
 		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Debug|x86.ActiveCfg = Debug|Win32
 		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Debug|x86.Build.0 = Debug|Win32
+		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Release|Any CPU.ActiveCfg = Release|x64
+		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Release|Any CPU.Build.0 = Release|x64
 		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Release|x64.ActiveCfg = Release|x64
 		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Release|x64.Build.0 = Release|x64
 		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Release|x86.ActiveCfg = Release|Win32
 		{8A38E445-E723-4DC2-BDB7-D18034CD0CDE}.Release|x86.Build.0 = Release|Win32
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Debug|x64.Build.0 = Debug|Any CPU
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Debug|x86.Build.0 = Debug|Any CPU
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Release|x64.ActiveCfg = Release|Any CPU
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Release|x64.Build.0 = Release|Any CPU
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Release|x86.ActiveCfg = Release|Any CPU
+		{3D148E84-02FF-4597-8414-DA8FAA4BCB81}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
